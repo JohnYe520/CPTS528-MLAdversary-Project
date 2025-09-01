@@ -11,7 +11,6 @@ The goal of this project is to explore the vulnerability of machine learning mod
 3. Implement and evaluate defenses to increase robustness against adversarial perturbations.
 
 ## Team Information
-- **Course:** CPTS 428/528: Software Security and Reverse Engineering  
 - **Team Members:**  
   - John Ye
  
