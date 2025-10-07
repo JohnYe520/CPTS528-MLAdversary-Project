@@ -53,9 +53,14 @@ Trained model weights will be saved to the path specified in save_path.
 python main.py
 ```
 For this milestone2-2, this will:
-1.Load configurations and set random seeds.
-2.Prepare CIFAR-10 training and test data loaders.
+
+1. Load configurations and set random seeds.
+   
+2. Prepare CIFAR-10 training and test data loaders.
+   
 3. Build a simple CNN model for classification.
+   
 4. Train and validate the model.
 
 5. Save trained weights to trained_model.pth
+
