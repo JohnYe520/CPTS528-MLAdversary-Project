@@ -34,7 +34,7 @@ CPTS528-MLAdversary-Project/
     ├── config.py                  # YAML config loader
     └── seed.py                    # Random seed setup for reproducibility
 │
-├── README.md
+└── README.md
 ```
 
 ## Requirements
@@ -49,13 +49,13 @@ CIFAR-10 will be automatically downloaded to ./data during the first run.
 
 Trained model weights will be saved to the path specified in save_path.
 
-## How to Run (To Be Updated)
+## How to Run
 ```bash
 python main.py
 ```
-For milestone2-2, this will:
-1. Load configurations and set random seeds.
-2. Prepare CIFAR-10 training and test data loaders.
+For this milestone2-2, this will:
+1.Load configurations and set random seeds.
+2.Prepare CIFAR-10 training and test data loaders.
 3. Build a simple CNN model for classification.
 4. Train and validate the model.
 5. Save trained weights to trained_model.pth
