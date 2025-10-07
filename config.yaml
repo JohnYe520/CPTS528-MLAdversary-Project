@@ -1,0 +1,22 @@
+# ===============================
+# Experiment Configuration
+# ===============================
+
+# General
+seed: 42
+run_id: "baseline_experiment"
+
+# Data
+dataset: "CIFAR10"
+batch_size: 64
+data_dir: "./data"
+
+# Training
+epochs: 15
+lr: 0.001
+optimizer: "Adam"
+loss_fn: "CrossEntropyLoss"
+
+save_path: "./trained_model.pth"
+
+log_dir: "./logs"
