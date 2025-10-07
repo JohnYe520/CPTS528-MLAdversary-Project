@@ -28,7 +28,6 @@ CPTS528-MLAdversary-Project/
 ├── trained_model.pth              # Saved model after training (auto-generated)
 │
 ├── data/                          # CIFAR-10 dataset (auto-downloaded here)
-├── logs/                          # Optional folder for logs and metrics
 │
 └── utils/                         # Helper utilities
     ├── config.py                  # YAML config loader
@@ -58,4 +57,5 @@ For this milestone2-2, this will:
 2.Prepare CIFAR-10 training and test data loaders.
 3. Build a simple CNN model for classification.
 4. Train and validate the model.
+
 5. Save trained weights to trained_model.pth
